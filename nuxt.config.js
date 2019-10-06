@@ -29,6 +29,18 @@ export default {
     '~/assets/main.css',
     '~/assets/styles.css',
   ],
+  /*nuxt generate config*/
+  
+  generate: {
+  routes: function () {
+    return axios.get('http://albvt.pythonanywhere.com/audio/')
+      .then((res) => {
+        return res.data.map((audio) => {
+          return '/audio/' + audio.id
+        })
+      })
+  }
+},
   /*
   ** Plugins to load before mounting the App
   */
