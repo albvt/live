@@ -31,7 +31,7 @@ export default{
     }
   }*/
   async asyncData () {
-   const { data } = await axios.get('http://127.0.0.1:8000/audio/')
+   const { data } = await axios.get('http://albvt.pythonanywhere.com/audio/')
    return { audios: data }
  }
 
