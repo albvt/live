@@ -23,7 +23,7 @@
 
                     <v-flex xs12 sm5 md3 justify-end>
                       <v-card tile>
-                        <v-card-text >using your google account or any social link them up and get started</v-card-text>
+                        <v-card-text >upload your audio content from podcasts to mere shooting sound test sounds</v-card-text>
 
                       </v-card>
                     </v-flex>
@@ -34,10 +34,10 @@
                     </v-flex>
                 </v-flex>
                 <v-flex>
-                    <div class="headline mt-3 brown--text font-weight-bold">Sell and go wild</div>
+                    <div class="headline mt-3 brown--text font-weight-bold">Sell and go Wild</div>
                     <v-flex xs12 sm5 md3 justify-end>
                       <v-card tile>
-                        <v-card-text >using your google account or any social link them up and get started</v-card-text>
+                        <v-card-text >with our premium account you could sell your audios and wilden out!!!</v-card-text>
 
                       </v-card>
                     </v-flex>
