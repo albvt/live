@@ -47,9 +47,9 @@ export default {
     '@nuxtjs/auth'
   ],
 
-  auth: {
+  //auth: {
   // Options
-},
+//},
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
