@@ -23,7 +23,7 @@ import axios from 'axios'
 
 export default{
   components:{audiocard,},
-  middleware:'auth',
+
   /*
   computed: {
     audios(){
