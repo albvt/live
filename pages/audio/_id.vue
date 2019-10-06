@@ -171,7 +171,7 @@ export default {
   },
   async asyncData ({ params, error }) {
     try {
-      const { data } = await axios.get(`http://127.0.0.1:8000/audio/${+params.id}`)
+      const { data } = await axios.get(`http://albvt.pythonanywhere.com/audio/${+params.id}`)
       return {audio:data}
     } catch (e) {
       error({ message: 'audio not found', statusCode: 404 })
