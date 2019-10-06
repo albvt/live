@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background: url('http://albvt.pythonanywhere.com/media/cover/kongyell.0.jpg');
+    background: url('http://albvt.pythonanywhere.com/media/cover/IMG_20190901_063501.jpg');
     background-size: cover;
     width: 100%;
     height: 100%;
