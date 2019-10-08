@@ -30,8 +30,8 @@ export default{
       return this.$store.state.audio.all
     }
   }*/
-  async asyncData () {
-   const { data } = await axios.get('http://albvt.pythonanywhere.com/audio/')
+  async asyncData ({$axios}) {
+   const { data } = await $axios.$get('http://albvt.pythonanywhere.com/audio/')
    return { audios: data }
  }
 
