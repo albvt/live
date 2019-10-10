@@ -19,7 +19,7 @@
         offset-sm3
         >
         <v-card
-        color="grey darken-2"
+        color="grey darken-4"
         raised
         class="rounded-card"
         >
