@@ -6,6 +6,7 @@
        <homelanded></homelanded>
        <HomeDetails></HomeDetails>
         <homecarousel></homecarousel>
+        
 
 
       </v-flex>
