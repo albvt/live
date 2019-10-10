@@ -46,6 +46,7 @@ export default {
   */
   plugins: [
       {src: '~/plugins/vueTyper.js', ssr: false},
+    {src: '~/plugins/vueparticles.js', ssr: false},
   ],
   /*
   ** Nuxt.js dev-modules
