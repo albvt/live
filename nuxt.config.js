@@ -57,15 +57,11 @@ export default {
   /*
   ** Nuxt.js modules
   */
- module.exports = {
-  modules: [
+   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
 
-  axios: {
-    // proxyHeaders: false
-  }
-},
   //auth: {
   // Options
 //},
