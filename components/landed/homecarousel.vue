@@ -4,17 +4,18 @@
       <v-flex  class="display-2 font-weight-black brown--text text-xs-center my-5">Top Trending Tapes</v-flex>
     </v-layout>
     <v-layout row  >
-      <v-flex xs12 >
-        <section class="card">
-          <div class="card--content"
-          v-for="audio in audios"
-          v-bind:key="audios.id"
-          >
+      <v-flex >
+
+          <div class="card">
             <landedaudio
+            v-for="audio in audios"
+            v-bind:key="audios.id"
             :audio ="audio"
             ></landedaudio>
           </div>
-        </section>
+
+
+
 
       </v-flex>
     </v-layout>
@@ -36,6 +37,10 @@ export default{
       return this.$store.state.audio.all
     }
   }
+/*  async asyncData () {
+   const { data } = await axios.get('http://127.0.0.1:8000/audio/?AudioFile_owner=2')
+   return { audios: data }
+ }*/
 
 }
 </script>
@@ -50,30 +55,8 @@ export default{
   display: none;
 }
 
-.card {
-  background-color: gray;
-  min-width: 100%;
-  min-height: 200px;
-}
-.card--content {
-  background-color: gray;
-  min-width: 200px;
-  margin: 5px;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  background-color: gray;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 body {
    scrollbar-width: none
 }
 </style>
+
