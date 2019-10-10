@@ -31,7 +31,7 @@ export default {
   ],
   /*nuxt generate config*/
   
-  generate: {
+ /* generate: {
   routes: function () {
     return axios.get('http://albvt.pythonanywhere.com/audio/')
       .then((res) => {
@@ -40,7 +40,7 @@ export default {
         })
       })
   }
-},
+},*/
   /*
   ** Plugins to load before mounting the App
   */
