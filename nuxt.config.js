@@ -65,7 +65,7 @@ export default {
   axios: {
     // proxyHeaders: false
   }
-}
+},
   //auth: {
   // Options
 //},
