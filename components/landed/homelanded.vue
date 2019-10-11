@@ -1,20 +1,32 @@
 <template>
     <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
-        <v-layout justify-center align-center column pa-5>
-          <v-parallax
-    dark
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
-  >
-    <v-row
-      align="center"
-      justify="center"
-    >
-      <h1 class="display-2 font-weight-thin mb-4">MANSA</h1>
-      <h4 class="subheading">First Earthly Audio Market</h4>
-       <div class="display-1 font-weight-bold white--text text-xs-center"><vue-typer text='Afrika At A Stream'></vue-typer></div>
-    </v-row>
-  </v-parallax>
-            
+        <v-layout justify-center align-center column pa-4 >
+<div>
+  <div class="display-1 font-weight-bold white--text text-xs-center"> <p>
+    <vue-typer text='Afrika At A Stream'></vue-typer>
+  </p></div>
+  <vue-particles
+         color="#ffffff"
+         :particleOpacity="0.7"
+         linesColor="#ffffff"
+         :particlesNumber="80"
+         shapeType="circle"
+         :particleSize="5"
+         :linesWidth="2"
+         :lineLinked="true"
+         :lineOpacity="0.4"
+         :linesDistance="150"
+         :moveSpeed="3"
+         :hoverEffect="true"
+         hoverMode="grab"
+         :clickEffect="true"
+         clickMode="push"
+       >
+       </vue-particles>
+</div>
+
+
+
         </v-layout>
     </v-container>
 </template>
@@ -26,5 +38,15 @@ export default {
 </script>
 
 <style scoped>
-
+.home-hero {
+    background: url('http://albvt.pythonanywhere.com/media/cover/blackwhite3.jpg') no-repeat center center ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 </style>
+
