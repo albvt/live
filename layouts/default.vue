@@ -36,12 +36,7 @@
       >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
+      
       <v-toolbar-title v-text="title" />
       <v-spacer />
      <!-- <v-btn icon><v-icon>mdi-magnify</v-icon></v-btn>-->
@@ -86,9 +81,9 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-headphones',
-          title: 'listen',
-          to: '/audio'
+          icon: 'mdi-magnify',
+          title: 'Search Db',
+          to: '/search'
         },
         {
           icon: 'mdi-account',
