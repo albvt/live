@@ -36,8 +36,8 @@ export default {
   plugins: [
 
       {src: '~/plugins/vueTyper.js', ssr: false},
-      {src: '~/plugins/vue-particles.js'},
-      {src:'~/plugins/vue-plyr.js'},
+      {src: '~/plugins/vue-particles.js',ssr:false},
+      {src:'~/plugins/vue-plyr.js',ssr:false},
   ],
   /*
   ** Nuxt.js dev-modules
@@ -81,6 +81,8 @@ export default {
   ** Build configuration
   */
   build: {
+     vendor: ['vue-plyr'],
+     vendor: ['vue-particles']
     /*
     ** You can extend webpack config here
     */
