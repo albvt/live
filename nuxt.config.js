@@ -81,8 +81,6 @@ export default {
   ** Build configuration
   */
   build: {
-     vendor: ['vue-plyr'],
-     vendor: ['vue-particles']
     /*
     ** You can extend webpack config here
     */
