@@ -25,13 +25,13 @@
         >
         <v-img :src="audio.AudioFile_cover" height="200px"></v-img>
         <div>
-    <vue-plyr>    
+       
 <audio controls>
   <source :src="audio.AudioFile" type="audio/ogg">
     Your browser does not support the audio element.
   </audio>
   </div>
-</vue-plyr>
+
         <v-card-text>{{audio.AudioFile_tag}}</v-card-text>
         </v-img>
           <v-card-actions>
