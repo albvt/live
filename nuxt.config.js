@@ -36,8 +36,8 @@ export default {
   plugins: [
 
       {src: '~/plugins/vueTyper.js', ssr: false},
-      {src: '~/plugins/vue-particles.js', ssr: false},
-      {src:'~/plugins/vue-plyr.js',ssr:false},
+      {src: '~/plugins/vue-particles.js'},
+      {src:'~/plugins/vue-plyr.js'},
   ],
   /*
   ** Nuxt.js dev-modules
