@@ -28,7 +28,7 @@ export default {
   css: [
     '~/assets/main.css',
     '~/assets/styles.css',
-   // 'vue-plyr/dist/vue-plyr.css',
+    'vue-plyr/dist/vue-plyr.css',
   ],
   /*
   ** Plugins to load before mounting the App
