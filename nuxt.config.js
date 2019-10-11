@@ -15,7 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Mansalva|Open+Sans+Condensed:300&display=swap'}
+      {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Caveat|Hind|Indie+Flower&display=swap'}
     ]
   },
   /*
@@ -28,24 +28,16 @@ export default {
   css: [
     '~/assets/main.css',
     '~/assets/styles.css',
+    'vue-plyr/dist/vue-plyr.css',
   ],
-  /*nuxt generate config*/
-  
- /* generate: {
-  routes: function () {
-    return axios.get('http://albvt.pythonanywhere.com/audio/')
-      .then((res) => {
-        return res.data.map((audio) => {
-          return '/audio/' + audio.id
-        })
-      })
-  }
-},*/
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+
       {src: '~/plugins/vueTyper.js', ssr: false},
+      {src: '~/plugins/vueparticles.js', ssr: false},
+      {src:'~/plugins/vue-plyr.js',ssr:false},
   ],
   /*
   ** Nuxt.js dev-modules
@@ -56,14 +48,14 @@ export default {
   /*
   ** Nuxt.js modules
   */
-   modules: [
+  modules: [
     '@nuxtjs/axios',
     '@nuxtjs/auth'
   ],
 
-  //auth: {
+  auth: {
   // Options
-//},
+},
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
@@ -96,3 +88,4 @@ export default {
     }
   }
 }
+
