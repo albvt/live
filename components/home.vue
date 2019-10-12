@@ -1,6 +1,10 @@
 <template>
   <v-container>
-    <v-layout>
+    <v-layout
+    align-center
+    justify-center
+    row
+    >
       <v-flex
        >
        <homelanded></homelanded>
