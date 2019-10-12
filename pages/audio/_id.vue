@@ -42,11 +42,13 @@
              </v-img>
 
              <div class="container">
-     <audio controls>
+             <vue-plyr>
+             <audio controls>
        <source :src="audio.AudioFile" type="audio/ogg">
          Your browser does not support the audio element.
-       </audio>
-     </div>
+                </audio>
+             </vue-plyr>
+         </div>
 
              <v-card-actions>
                <v-spacer></v-spacer>
@@ -138,11 +140,13 @@
             mdi-minus
           </v-icon>
           <div class="container">
-  <audio controls>
+          <vue-plyr>
+          <audio controls>
     <source :src="audio.AudioFile" type="audio/ogg">
       Your browser does not support the audio element.
-    </audio>
-  </div>
+            </audio>
+          </vue-plyr>
+         </div>
         </template>
 
         <template v-slot:append>
