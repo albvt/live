@@ -23,8 +23,7 @@
         color="grey darken-4"
         raised
         class="rounded-card"
-        router
-        :to="'/audio/'+audio.id"
+        :elevation="hover ? 12 : 2"
         >
         <v-img :src="audio.AudioFile_cover" height="200px">
           <v-expand-transition>
