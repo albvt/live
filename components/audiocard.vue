@@ -40,11 +40,7 @@
 
             <v-spacer></v-spacer>
 <!--real deal button-->
-
-<v-btn color="purple" icon >
-  <NuxtLink :to="'/audio/'+audio.id"><v-icon>mdi-music</v-icon>
-      </NuxtLink>
-</v-btn>
+<a :href="'/audio/'+audio.id"><v-icon>mdi-download</v-icon></a>
           </v-card-actions>
           <span>{{audio.AudioFile_caption}}</span>
         </v-card>
