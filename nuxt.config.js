@@ -22,6 +22,25 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: "#3b8070",throttle: 0 },
+  
+  generate: {
+routes: function () {
+return [
+'/audio/1',
+'/audio/2',
+'/audio/3',
+ '/audio/4',
+'/audio/5',
+'/audio/6',
+ '/audio/7',
+'/audio/8',
+'/audio/9',
+'/audio/10',
+'/audio/11',
+'/audio/12',
+];
+}
+},
   /*
   ** Global CSS
   */
