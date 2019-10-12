@@ -38,8 +38,9 @@
     </v-expand-transition>
         </v-img>
 
-        <v-card-text>{{audio.AudioFile_tag}}</v-card-text>
+        
         </v-img>
+        <a :href="'/audio/'+audio.id"><v-card-text>{{audio.AudioFile_tag}}</v-card-text><v-icon>mdi-download</v-icon></a>
           <span>{{audio.AudioFile_caption}}</span>
         </v-card>
 
