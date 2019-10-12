@@ -86,9 +86,9 @@ export default {
           to: '/search'
         },
         {
-          icon: 'mdi-account',
-          title: 'login',
-          to: '/user'
+          icon: 'mdi-campfire',
+          title: 'dashboard',
+          to: '/dashboard'
         },
       ],
       miniVariant: false,
