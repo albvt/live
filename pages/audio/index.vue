@@ -22,6 +22,14 @@ import axios from 'axios'
 
 
 export default{
+    head () {
+    return {
+      title: 'market',
+      meta: [
+        { hid: 'description', name: 'description', content: 'buy with bitcoin' }
+      ]
+    }
+  },
   components:{audiocard,},
 
   /*
