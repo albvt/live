@@ -39,10 +39,9 @@
                             </v-text-field>
                         </v-form>
                     </v-card-text>
-                    <div>
-                           <span>continue with</span>
+                    
                           <googleauth></googleauth>
-                    </div>
+                    
               
                     <v-card-actions>
                         <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="signinSubmitBtn">continue</v-btn>
