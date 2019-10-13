@@ -27,8 +27,7 @@
                   •Afrika•On•Stream
                 </p>
               </v-card-text>
-              <span>continue with</span>
-              <googleauth></googleauth>
+             
                     <v-card-text>
                         <v-form ref="form" v-model="valid" >
                             <v-text-field prepend-icon="mdi-account-outline" name="username" label="username" type="email"
@@ -40,6 +39,11 @@
                             </v-text-field>
                         </v-form>
                     </v-card-text>
+                    <div>
+                           <span>continue with</span>
+                          <googleauth></googleauth>
+                    </div>
+              
                     <v-card-actions>
                         <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="signinSubmitBtn">continue</v-btn>
                           <v-spacer></v-spacer>
