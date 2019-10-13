@@ -3,13 +3,13 @@
         <v-layout justify-center align-center column pa-4 >
 <div>
   <div class="display-1 font-weight-bold white--text text-xs-center"> <p>
-    <vue-typer text='Afrika At A Stream'></vue-typer>
+    <vue-typer text='Music,Mixtapes,type-beats!!!!'></vue-typer>
   </p></div>
   <vue-particles
          color="#ffffff"
          :particleOpacity="0.7"
          linesColor="#ffffff"
-         :particlesNumber="80"
+         :particlesNumber="90"
          shapeType="circle"
          :particleSize="5"
          :linesWidth="2"
