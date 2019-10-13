@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app style="background: #0E2F44;">
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -28,7 +28,7 @@
       :clipped-left="clipped"
       fixed
       app
-      dark
+      color="#0E2F44"
       shrink-on-scroll
       prominent
       src="https://picsum.photos/1920/1080?random"
