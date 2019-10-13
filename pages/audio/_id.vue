@@ -16,7 +16,7 @@
          >
          <v-hover v-slot:default="{ hover }">
            <v-card
-            color="grey darken-2"
+            color="#0E2F44"
             class="rounded-card"
             >
 
