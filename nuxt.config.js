@@ -10,13 +10,18 @@ export default {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
+      { name: 'theme-color' , content: '#1f3139' },
+      {name:'google-signin-client_id' , content: '226827588337-a9eh80rrldicns0dakkl755okud8jfqd.apps.googleusercontent.com' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Caveat|Hind|Indie+Flower&display=swap'}
-    ]
+    ],
+    script: [
+      { src: 'https://apis.google.com/js/platform.js' }
+    ],
   },
   /*
   ** Customize the progress-bar color
