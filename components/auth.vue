@@ -45,7 +45,7 @@
 <script>
 import googleauth from './googleauth.vue'
 export default{
-  components:{googleauth},
+  components:{googleauth,},
   name:"auth",
   
 }
