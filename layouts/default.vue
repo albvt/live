@@ -28,6 +28,13 @@
       :clipped-left="clipped"
       fixed
       app
+      dark
+      shrink-on-scroll
+      prominent
+      src="https://picsum.photos/1920/1080?random"
+      fade-img-on-scroll
+      scroll-target="#scrolling-techniques-5"
+      scroll-threshold="500"
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-btn
