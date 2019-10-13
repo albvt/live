@@ -27,6 +27,8 @@
                   •Afrika•On•Stream
                 </p>
               </v-card-text>
+              <span>continue with</span>
+              <googleauth></googleauth>
                     <v-card-text>
                         <v-form ref="form" v-model="valid" >
                             <v-text-field prepend-icon="mdi-account-outline" name="username" label="username" type="email"
@@ -41,7 +43,7 @@
                     <v-card-actions>
                         <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="signinSubmitBtn">continue</v-btn>
                           <v-spacer></v-spacer>
-                          <v-btn color="teal" text to="user/register" >sign up</v-btn>
+                          <v-btn color="teal" text to="/register" >sign up</v-btn>
                     </v-card-actions>
                 </v-card>
 
@@ -50,7 +52,9 @@
   </v-container>
 </template>
 <script>
+import googleauth from './googleauth.vue'
 export default{
+  components:{googleauth},
   name:"auth",
   data() {
         return {
