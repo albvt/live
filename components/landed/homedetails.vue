@@ -3,50 +3,64 @@
         <v-container grid-list-lg>
             <v-layout column>
                 <v-flex  class="display-2 font-weight-black brown--text text-xs-center my-5">How It Works</v-flex>
-                <v-flex >
-                    <div class="headline mt-3 brown--text font-weight-bold">Create An Account</div>
-                    <v-flex xs12 sm5 md3 justify-end>
-                      <v-card tile>
-                        <v-card-text >using your google account, or any social, link them up and get started</v-card-text>
+                <div
+                 data-aos="fade-up"
+                data-aos-delay="500"
+                data-aos-once="true"
+                >
+                  <v-flex >
+                      <div class="headline mt-3 brown--text font-weight-bold">Create An Account</div>
+                      <v-flex xs12 sm5 md3 justify-end>
+                        <v-card tile>
+                          <v-card-text >using your google account, or any social, link them up and get started</v-card-text>
 
-                      </v-card>
-                    </v-flex>
+                        </v-card>
+                      </v-flex>
 
-                    <v-flex offset-sm8 xs4>
+                      <v-flex offset-sm8 xs4>
 
-                      <v-card><v-img src="http://albvt.pythonanywhere.com/media/cover/blackwhite3.jpg"></v-img></v-card>
-                    </v-flex>
+                        <v-card><v-img src="http://127.0.0.1:8000/media/cover/IMG_20190801_193634.jpg"></v-img></v-card>
+                      </v-flex>
 
-                </v-flex>
-                <v-flex>
-                    <div class="headline mt-3 brown--text font-weight-bold">Upload Audio Content</div>
+                  </v-flex>
+                </div>
 
-                    <v-flex xs12 sm5 md3 justify-end>
-                      <v-card tile>
-                        <v-card-text >upload your audio content from podcasts to mere shooting sound test sounds</v-card-text>
+                <div data-aos="flip-up" data-aos-duration="1000">
+                  <v-flex>
+                      <div class="headline mt-3 brown--text font-weight-bold">Upload Audio Content</div>
 
-                      </v-card>
-                    </v-flex>
+                      <v-flex xs12 sm5 md3 justify-end>
+                        <v-card tile>
+                          <v-card-text >your beats shouldnt be yours alone!!!! you never walk alone Upload your audios and set the world on fire</v-card-text>
 
-                    <v-flex offset-sm8 xs4>
+                        </v-card>
+                      </v-flex>
 
-                      <v-card><v-img src="http://albvt.pythonanywhere.com/media/cover/_105651842_02357.jpg"></v-img></v-card>
-                    </v-flex>
-                </v-flex>
-                <v-flex>
-                    <div class="headline mt-3 brown--text font-weight-bold">Sell and go Wild</div>
-                    <v-flex xs12 sm5 md3 justify-end>
-                      <v-card tile>
-                        <v-card-text >with our premium account you could sell your audios and wilden out!!!</v-card-text>
+                      <v-flex offset-sm8 xs4>
 
-                      </v-card>
-                    </v-flex>
+                        <v-card><v-img src="http://127.0.0.1:8000/media/cover/vector-man-playing-djembe-and-african-music.jpg">
+                        </v-img></v-card>
+                      </v-flex>
+                  </v-flex>
+                </div>
 
-                    <v-flex offset-sm8 xs4>
+                <div data-aos="zoom-in-up">
+                  <v-flex>
+                      <div class="headline mt-3 brown--text font-weight-bold">Sell and go wild</div>
+                      <v-flex xs12 sm5 md3 justify-end>
+                        <v-card tile>
+                          <v-card-text >with crypto now available you can sell to anyone arund the world</v-card-text>
 
-                      <v-card><v-img src="http://albvt.pythonanywhere.com/media/cover/IMG_20190905_111131.jpg"></v-img></v-card>
-                    </v-flex>
-                </v-flex>
+                        </v-card>
+                      </v-flex>
+
+                      <v-flex offset-sm8 xs4>
+
+                        <v-card><v-img src="http://127.0.0.1:8000/media/cover/roots1.jpg"></v-img></v-card>
+                      </v-flex>
+                  </v-flex>
+                </div>
+
             </v-layout>
         </v-container>
     </v-container>
@@ -60,4 +74,3 @@ export default {
 
 <style scoped>
 </style>
-
