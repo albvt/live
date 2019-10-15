@@ -17,6 +17,7 @@
     "howler": "^2.1.2",
     "less-loader": "^5.0.0",
     "nuxt": "^2.0.0",
+    "axios": "^0.19.0",
     "aos": "^2.3.4",
     "vue-particles": "^1.0.9",
     "vue-plyr": "^5.1.3",
