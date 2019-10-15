@@ -19,7 +19,7 @@
 
                       <v-flex offset-sm8 xs4>
 
-                        <v-card><v-img src="http://127.0.0.1:8000/media/cover/IMG_20190801_193634.jpg"></v-img></v-card>
+                        <v-card><v-img http://kiliboid.pythonanywhere.com/media/media/IMG_20190920_083437.jpg"></v-img>
                       </v-flex>
 
                   </v-flex>
@@ -38,7 +38,7 @@
 
                       <v-flex offset-sm8 xs4>
 
-                        <v-card><v-img src="http://127.0.0.1:8000/media/cover/vector-man-playing-djembe-and-african-music.jpg">
+                        <v-card><v-img src=" http://kiliboid.pythonanywhere.com/media/media/audio-cassette-cassette-tape-1626481.jpg">
                         </v-img></v-card>
                       </v-flex>
                   </v-flex>
