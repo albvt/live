@@ -1,7 +1,7 @@
 <template>
     <v-container fluid fill-height class="home-hero" style="max-height: 100vh;">
         <v-layout justify-center align-center column pa-4 >
-<div>
+<div data-aos="slide-up" data-aos-easing="ease" data-aos-duration="1000">
   <div class="display-1 font-weight-bold white--text text-xs-center"> <p>
     <vue-typer text='Music,Mixtapes,type-beats!!!!'></vue-typer>
   </p></div>
