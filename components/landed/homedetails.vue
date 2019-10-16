@@ -38,7 +38,7 @@
 
                       <v-flex offset-sm8 xs4>
 
-                        <v-card><v-img src=" http://kiliboid.pythonanywhere.com/media/media/Screenshot_20190103-230727.png">
+                        <v-card><v-img src="http://albvt.pythonanywhere.com/media/cover/IMG_20190901_063501.jpg">
                         </v-img></v-card>
                       </v-flex>
                   </v-flex>
