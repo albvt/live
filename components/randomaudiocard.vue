@@ -66,7 +66,7 @@
 <script>
 
 export default {
-  name:"audiocard",
+  name:"randomaudiocard",
     props: ["audio",],
 };
 </script>
