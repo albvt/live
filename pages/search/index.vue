@@ -27,6 +27,7 @@ import axios from 'axios'
 
 
 export default{
+layout:'search',
 
   head () {
     return {
