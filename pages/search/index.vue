@@ -22,7 +22,6 @@
 
 <script>
 import audiocard from '~/components/audiocard.vue'
-import audioplayer from '~/components/player/audioplayer.vue'
 import axios from 'axios'
 
 
