@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import audiocard from '~/components/randomaudiocard.vue'
+import randomaudiocard from '~/components/randomaudiocard.vue'
 import axios from 'axios'
 
 
@@ -36,7 +36,7 @@ layout:'search',
       ]
     }
   },
-  components:{audiocard,audioplayer},
+  components:{randomaudiocard,},
 
 /*computed: {
     audios(){
