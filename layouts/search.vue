@@ -1,5 +1,7 @@
 <template>
-  <v-app>
+  <v-app
+  style="background: #0E2F44;"
+  >
           <v-app-bar
             :clipped-left="clipped"
             fixed
@@ -9,7 +11,7 @@
            icon
            to="/"
           >
-          <v-icon>mdi-home</v-icon>
+          <v-icon color="#18D3AF">mdi-home</v-icon>
           </v-btn>
             <v-spacer />
             <v-text-field
@@ -22,7 +24,7 @@
               to="/search"
               @click.stop="rightDrawer = !rightDrawer"
             >
-              <v-icon>mdi-magnify</v-icon>
+              <v-icon color="#18D3AF">mdi-magnify</v-icon>
             </v-btn>
 
           </v-app-bar>
