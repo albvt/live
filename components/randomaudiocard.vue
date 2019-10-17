@@ -23,11 +23,11 @@
         raised
         class="rounded-card"
         >
-        <v-img :src="audio.AudioFile_cover" height="200px"></v-img>
+        <v-img :src=" 'http://albvt.pythonanywhere.com/'+audio.AudioFile_cover" height="200px"></v-img>
         <div class="container">
 <vue-plyr>
   <audio controls>
-    <source :src="'albvt.pythonanywhere.com'+audio.AudioFile" type="audio/ogg">
+    <source :src="'http://albvt.pythonanywhere.com/'+audio.AudioFile" type="audio/ogg">
       Your browser does not support the audio element.
     </audio>
 </vue-plyr>
