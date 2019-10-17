@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="grey darken-4">
+  <v-container fluid class="#0E2F44" color="#0E2F44" >
     <v-layout row >
       <v-flex  class="display-2 font-weight-black brown--text text-xs-center my-5">Top Trending Tapes</v-flex>
     </v-layout>
