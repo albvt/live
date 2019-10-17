@@ -27,16 +27,12 @@
                   •Afrika•On•Stream
                 </p>
               </v-card-text>
+               </v-card>
                     
                           <googleauth></googleauth>
                     
               
-                    <v-card-actions>
-                        <v-btn color="primary" :disabled="!valid">continue</v-btn>
-                          <v-spacer></v-spacer>
-                          <v-btn color="teal" text to="/register" >sign up</v-btn>
-                    </v-card-actions>
-                </v-card>
+               
 
       </v-flex>
     </v-layout>
