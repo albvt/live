@@ -7,21 +7,21 @@
       xs10
       >
       <div data-aos="zoom-in">
-        <audiocard
+        <randomaudiocard
         :audio ="audio"
         v-for="audio in audios"
         v-bind:key="audios.id"
-        ></audiocard>
+        ></randomaudiocard>
       </div>
 
-    <audioplayer></audioplayer>
+    
 
       </v-flex>
     </v-layout>
 </template>
 
 <script>
-import audiocard from '~/components/audiocard.vue'
+import audiocard from '~/components/randomaudiocard.vue'
 import axios from 'axios'
 
 
