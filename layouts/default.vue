@@ -22,9 +22,10 @@
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
-          <a href="/search"> <v-icon>mdi-magnify</v-icon>search db</a>
+          
         </v-list-item>
       </v-list>
+      <a href="/search"> <v-icon color="#18D3AF">mdi-magnify</v-icon>search db</a>
     </v-navigation-drawer>
     <v-app-bar
       :clipped-left="clipped"
