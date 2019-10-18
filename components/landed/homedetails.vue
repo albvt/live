@@ -17,7 +17,14 @@
                         </v-card>
                       </v-flex>
 
-                      <v-flex offset-sm8 xs4>
+                      <v-flex 
+                      offset-sm8
+                       xs12
+                       sm6
+                       md12
+                       lg7
+                       xl6
+                      xs4>
 
                         <v-card><v-img src="http://kiliboid.pythonanywhere.com/media/media/IMG_20190920_083437.jpg"></v-img>
                       </v-flex>
@@ -36,7 +43,14 @@
                         </v-card>
                       </v-flex>
 
-                      <v-flex offset-sm8 xs4>
+                      <v-flex  
+                      offset-sm8 
+                       xs12
+                       sm6
+                       md12
+                       lg7
+                       xl6
+                      xs4>
 
                         <v-card color="#0E2F44"><v-img src="http://albvt.pythonanywhere.com/media/cover/IMG_20190901_063501.jpg">
                         </v-img></v-card>
@@ -54,7 +68,14 @@
                         </v-card>
                       </v-flex>
 
-                      <v-flex offset-sm8 xs4>
+                      <v-flex
+                      offset-sm8
+                       xs12
+                       sm6
+                       md12
+                       lg7
+                       xl6
+                      xs4>
 
                         <v-card color="#0E2F44"><v-img src="http://kiliboid.pythonanywhere.com/media/media/IMG_20190725_072950.jpg"></v-img></v-card>
                       </v-flex>
