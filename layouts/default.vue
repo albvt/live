@@ -17,12 +17,12 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon color="#18D3AF" >{{ item.icon }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
-          <a href="/search>search db</a>
+          <a href="/search> <v-icon>mdi-magnify</v-icon>search db</a>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -43,36 +43,20 @@
         icon
         @click.stop="miniVariant = !miniVariant"
       >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
+        <v-icon color="#18D3AF">mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
       
       <v-toolbar-title v-text="title" />
       <v-spacer />
      <!-- <v-btn icon><v-icon>mdi-magnify</v-icon></v-btn>-->
-      <a href="/audio">listen<a/><v-btn icon><v-icon>mdi-music</v-icon></v-btn>
+      <a href="/audio">listen<a/><v-btn icon color="#18D3AF"><v-icon>mdi-music</v-icon></v-btn>
     </v-app-bar>
     <v-content>
       <v-container>
         <nuxt />
       </v-container>
     </v-content>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
+   
   </v-app>
 </template>
 
