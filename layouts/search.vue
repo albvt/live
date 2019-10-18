@@ -6,6 +6,7 @@
             :clipped-left="clipped"
             fixed
             app
+            color="#0E2F44"
           >
           <v-btn
            icon
