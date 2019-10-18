@@ -22,6 +22,7 @@
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
+          <a href="/search>search db</a>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -88,11 +89,7 @@ export default {
           title: 'Welcome',
           to: '/'
         },
-        {
-          icon: 'mdi-magnify',
-          title: 'Search Db',
-          to: '/search'
-        },
+        
         {
           icon: 'mdi-campfire',
           title: 'dashboard',
