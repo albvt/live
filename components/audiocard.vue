@@ -44,7 +44,7 @@
     <v-avatar left>
       <v-icon>mdi-bitcoin</v-icon>
     </v-avatar>
-    {{image.ImageFile_claps}}  buys
+    {{audio.AudioFile_claps}}  buys
   </v-chip>
             
 
