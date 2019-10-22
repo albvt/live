@@ -39,7 +39,7 @@
       scroll-target="#scrolling-techniques-5"
       scroll-threshold="500"
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="#18D3AF"/>
       <v-btn
         icon
         @click.stop="miniVariant = !miniVariant"
