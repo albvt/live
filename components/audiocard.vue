@@ -36,7 +36,17 @@
         <v-card-text>{{audio.AudioFile_tag}}</v-card-text>
         </v-img>
           <v-card-actions>
-            <v-btn text>clap</v-btn>
+                <v-chip
+    class="ma-2"
+    color="#18D3AF"
+    text-color="white"
+  >
+    <v-avatar left>
+      <v-icon>mdi-bitcoin</v-icon>
+    </v-avatar>
+    {{image.ImageFile_claps}}  buys
+  </v-chip>
+            
 
             <v-spacer></v-spacer>
 <!--real deal button-->
