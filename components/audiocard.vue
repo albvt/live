@@ -47,7 +47,7 @@
     {{audio.AudioFile_claps}}  buys
   </v-chip>
             
-<a :href="'albvt.pythonanywhere.com'+audio.AudioFile">download<v-icon>mdi-file</v-icon></a>
+<a :href="audio.AudioFile">download<v-icon>mdi-file</v-icon></a>
             <v-spacer></v-spacer>
 <!--real deal button-->
 <a :href="'/audio/'+audio.id"><v-icon>mdi-download</v-icon></a>
