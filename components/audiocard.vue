@@ -17,6 +17,7 @@
         lg7
         xl6
         offset-sm3
+        
         >
         <v-card
         color="#0E2F44"
@@ -50,7 +51,7 @@
 <a :href="audio.AudioFile" download>download<v-icon>mdi-file</v-icon></a>
             <v-spacer></v-spacer>
 <!--real deal button-->
-<a :href="'/audio/'+audio.id"><v-icon>mdi-download</v-icon></a>
+<a :href="'/audio/'+audio.id"><v-icon>mdi-download-outline</v-icon></a>
           </v-card-actions>
           <span>{{audio.AudioFile_caption}}</span>
         </v-card>
