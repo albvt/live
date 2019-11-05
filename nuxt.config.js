@@ -6,8 +6,8 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
+    titleTemplate: 'mansaah ' ,
+    title:  'mansaah',
     meta: [
       { charset: 'utf-8' },
       { name: 'theme-color' , content: '#0E2F44' },
