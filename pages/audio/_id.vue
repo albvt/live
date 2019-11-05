@@ -161,6 +161,7 @@
     </v-card-text>
   </v-card>
 </template>
+                                                <adsbygoogle />
 
       </v-layout>
     </v-container>
