@@ -75,7 +75,10 @@ return [
   */
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/auth'
+    '@nuxtjs/auth',
+     ['@nuxtjs/google-adsense', {
+      id: 'ca-pub-5388314784840597'
+    }]
   ],
 
   auth: {
