@@ -77,7 +77,7 @@
   <v-card
     class="mx-auto"
     max-width="600"
-    color="grey darken-3"
+    color="#0E2F44"
   >
     <v-toolbar
       flat
