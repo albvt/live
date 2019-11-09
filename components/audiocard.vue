@@ -48,7 +48,7 @@
     {{audio.AudioFile_claps}}  buys
   </v-chip>
             
-<a :href="audio.AudioFile" download>download<v-icon>mdi-file</v-icon></a>
+
             <v-spacer></v-spacer>
 <!--real deal button-->
 <a :href="'/audio/'+audio.id"><v-icon>mdi-download-outline</v-icon></a>
