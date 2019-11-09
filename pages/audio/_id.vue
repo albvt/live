@@ -51,12 +51,13 @@
          </div>
 
              <v-card-actions>
-             <form action="https://bitpay.com/checkout" method="post" >
+                        <form action="https://bitpay.com/checkout" method="post">
   <input type="hidden" name="action" value="checkout" />
   <input type="hidden" name="posData" value="" />
-  <input type="hidden" name="data" value="+Ty9XE9ixf4JQjiWDgLJ/O+1VEjxCOsCBq8S3689+29LgD9ZGjZBslelgCo2zR2u4V2hCZRWEtcus6MOEA24IwdXdJqaqPSNaPp0OfvsVsKr2O5poDml6oElkJ5rsgwLiEwgolM13SNMO8SZPpm/gX7liVonJKL9MiYhGQRIFVrV7BdczUY9Eem6sPRw5lHKbKtUxkgTYD0pd4x/A+Yd/72lxkTiOYkO1wwhq0pEyIw=" />
-  <input type="image" src="https://bitpay.com/img/button8.png" border="0" name="submit" alt="BitPay, the easy way to pay with bitcoins." >
+  <input type="hidden" name="data" value="pgpFUIlDzk1/GLp96JnzTXS/RNUhp/A0Mb2O5K28UwmixG8xHYaQuUwGjEXBLG0v66ERqs23igvKeWqLZ2H23wG0CmeuCJOhROFH1rv+Vl0=" />
+  <input type="image" src="https://bitpay.com/cdn/en_US/bp-btn-pay-currencies.svg" name="submit" style="width: 210px" alt="BitPay, the easy way to pay with bitcoins.">
 </form>
+
                <v-spacer></v-spacer>
                <!--magic other button-->
 
