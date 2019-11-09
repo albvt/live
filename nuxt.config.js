@@ -13,7 +13,8 @@ export default {
       { name: 'theme-color' , content: '#0E2F44' },
       {name:'google-signin-client_id' , content: '226827588337-a9eh80rrldicns0dakkl755okud8jfqd.apps.googleusercontent.com' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      {name:'google-site-verification',content:'oAzC1OHtW4HnIpGtv9G_luiGCGfP681gbhbxZD36wgQ'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
