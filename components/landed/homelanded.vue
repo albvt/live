@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background: url('http://kiliboid.pythonanywhere.com/media/media/audio-cassette-cassette-tape-1626481.jpg') no-repeat center center ;
+    background: url('http://kiliboid.pythonanywhere.com/media/media/71hwEIYsZL._SX466_.jpg') no-repeat center center ;
     background-size: cover;
     width: 100%;
     height: 100%;
