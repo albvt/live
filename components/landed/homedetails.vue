@@ -38,7 +38,7 @@
 
                       <v-flex xs12 sm5 md3 justify-end>
                         <v-card tile color="#0E2F44">
-                          <v-card-text >your beats shouldnt be yours alone!!!! you never walk alone Upload your audios and set the world on fire</v-card-text>
+                          <v-card-text >your beats shouldnt be yours alone!!!! you never walk alone Mansaah got you Upload your audios and set the world on fire</v-card-text>
 
                         </v-card>
                       </v-flex>
