@@ -7,14 +7,21 @@
 <script>
 import home from '~/components/home.vue'
 export default{
-   head () {
-    return {
-      
-      meta: [
-        { hid: 'description', name:'google-site-verification', content:'oAzC1OHtW4HnIpGtv9G_luiGCGfP681gbhbxZD36wgQ'  }
-      ]
-    }
-  },
+   head: {
+     title: 'Home page 🚀',
+     meta: [
+       { hid: 'description', name: 'mansaah', content: 'Afro typebeats Mixtapes' }
+     ],
+     noscript: [
+       { innerHTML: 'Body No Scripts', body: true }
+     ],
+     script: [
+       { src: '/head.js' },
+       // Supported since 1.0
+       { src: '/body.js', body: true },
+       { src: '/defer.js', defer: '' }
+     ]
+   },
   components:{home},
 
 }
