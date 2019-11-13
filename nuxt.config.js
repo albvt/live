@@ -79,8 +79,41 @@ return [
     '@nuxtjs/auth',
      ['@nuxtjs/google-adsense', {
       id: 'ca-pub-5388314784840597'
-    }]
+    }],
+    '@nuxtjs/sitemap',
+    
   ],
+  
+  sitemap: {
+    hostname: 'https://mansaah.com/',
+    lastmod: '2019-11-13',
+    sitemaps: [
+      {
+        path: '/sitemap.xml',
+        routes: [
+          'audio',
+          'search',
+          'audio/1',
+          'audio/2',
+          'audio/3',
+          'audio/4',
+          'audio/5',
+          'audio/6',
+          'audio/7',
+          'audio/8',
+          'audio/9',
+          'audio/10',
+          'audio/11',
+          'audio/12',
+          
+          
+        ],
+        gzip: true
+      },
+    ]
+  },
+  
+  
 
   auth: {
   // Options
