@@ -3,6 +3,7 @@
     <h1>
       BitPay Launches Support for Ethereum
 Global Businesses Can Accept Ethereum for Payment Processing and Cross-Border Transactions
+Like we do it here at Mansaah
     </h1>
     <div>
 
@@ -19,25 +20,48 @@ Global Businesses Can Accept Ethereum for Payment Processing and Cross-Border Tr
 
     Blockchain technology was invented with the goal of revolutionizing the financial industry. By continuing to add additional cryptocurrency support, BitPay is advancing blockchain payments on a global scale, making payments faster, more secure, and less expensive. Ethereum, launched in 2015, is a blockchain enabled smart contract platform.
 
-    BitPay’s existing merchants, including Microsoft, Newegg, Dish Networks, FanDuel and Avnet, will be able to turn on support for Ethereum seamlessly without any additional integration.  BitPay plans to go live with Ethereum support in the coming weeks for BitPay merchants and BitPay wallet holders.
+    BitPay’s existing merchants, including Microsoft, Newegg, Dish Networks, FanDuel,Mansaah and Avnet, will be able to turn on support for Ethereum seamlessly without any additional integration.  BitPay plans to go live with Ethereum support in the coming weeks for BitPay merchants and BitPay wallet holders.
 
     About BitPay
-    Founded in 2011, BitPay is the pioneer and the most experienced company in bitcoin and blockchain payments. Its suite of products enables businesses to send and receive cross border payments, also enabling consumers to manage digital assets with the BitPay Wallet and turn digital assets into dollars with the BitPay Prepaid Visa® Card. The company has offices in North America, Europe, and South America and has raised over $70 million from leading investors including Founders Fund, Index Ventures and Aquiline Technology Growth. For more information visit https://bitpay.com
+    Founded in 2011, BitPay is the pioneer and the most experienced company in bitcoin and blockchain payments. Its suite of products enables businesses to send and receive cross border payments, also enabling consumers to manage digital assets with the BitPay Wallet and turn digital assets into dollars with the BitPay Prepaid Visa® Card. The company has offices in North America, Europe, and South America and has raised over $70 million from leading investors including Founders Fund, Index Ventures and Aquiline Technology Growth. For more information visit:    <a href="https://bitpay.com">bitpay</a>
 
     The BitPay Visa® Prepaid Card is issued by Metropolitan Commercial Bank, member FDIC, pursuant to a license from Visa, U.S.A. Inc. “Metropolitan” and “Metropolitan Commercial Bank” are registered trademarks of Metropolitan Commercial Bank © 2014. Use of the Card is subject to the terms and conditions of the applicable Cardholder Agreement and fee schedule, if any.
+<div>
+<span>Media Contacts:</span>
+<br/>
+  Jan Jahosky
+  <br/>
+  BitPay
+  media@bitpay.com
+</div>
 
-    Media Contacts:
-    Jan Jahosky
-    BitPay
-    media@bitpay.com
 
           </h3>
-  
+
 
     </div>
   </div>
 </template>
 <script>
+export default{
+  head: {
+     title: 'Payments mansaah',
+     meta: [
+       { hid: 'description', name: 'BitPay', content: 'Bitpay Ethereum payments' }
+     ],
+     noscript: [
+       { innerHTML: 'Body No Scripts', body: true }
+     ],
+     script: [
+       { src: '/head.js' },
+       // Supported since 1.0
+       { src: '/body.js', body: true },
+       { src: '/defer.js', defer: '' }
+     ]
+   },
+}
+
 </script>
 <style>
 </style>
+
