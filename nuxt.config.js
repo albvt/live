@@ -18,7 +18,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Caveat|Hind|Indie+Flower&display=swap'}
+      {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Alegreya|Montserrat|Yeon+Sung&display=swap'}
     ],
     script: [
       { src: 'https://apis.google.com/js/platform.js' }
@@ -44,6 +44,10 @@ return [
 '/audio/10',
 '/audio/11',
 '/audio/12',
+  '/article/1',
+  '/article/2',
+  '/article/3',
+  
 ];
 }
 },
