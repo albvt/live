@@ -23,7 +23,7 @@
         raised
         class="rounded-card"
         >
-        <v-img :src=" 'http://albvt.pythonanywhere.com/'+audio.AudioFile_cover" height="200px"></v-img>
+        <v-img title="African Mixtapes African djs mansaah" :src=" 'http://albvt.pythonanywhere.com/'+audio.AudioFile_cover" height="200px" alt="Afro pop roots music African Music "></v-img>
         <div class="container">
 <vue-plyr>
   <audio controls>
