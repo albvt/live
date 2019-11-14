@@ -24,7 +24,7 @@
         raised
         class="rounded-card"
         >
-        <v-img :src="audio.AudioFile_cover" height="200px"></v-img>
+        <v-img title="Africa on a stream mansaah mixtapes beats Africa " :src="audio.AudioFile_cover" height="200px" alt="Afro beats mansaah"></v-img>
         <div>
        <vue-plyr>
 <audio controls>
