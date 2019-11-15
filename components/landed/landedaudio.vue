@@ -25,7 +25,7 @@
         class="rounded-card"
         :elevation="hover ? 12 : 2"
         >
-        <v-img :src="audio.AudioFile_cover" height="200px">
+        <v-img title="Afro pop mixtapes and beats" :src="audio.AudioFile_cover" height="200px" alt="African Hit Music">
           <v-expand-transition>
       <div
         v-if="hover"
