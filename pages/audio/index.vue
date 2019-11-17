@@ -24,9 +24,9 @@ import axios from 'axios'
 export default{
     head () {
     return {
-      title: 'market',
+      title: ' audio market',
       meta: [
-        { hid: 'description', name: 'description', content: 'buy with bitcoin' }
+        { hid: 'description', name: 'description', content: 'buy with bitcoin,mansaah,music ,audio books,podcasts,mixtapes and so much more' }
       ]
     }
   },
