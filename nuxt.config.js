@@ -6,7 +6,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'mansaah ' ,
+    titleTemplate: 'mansaah: African Music, Mixtapes and Type Beats! ' ,
     title:  'mansaah : African Music, Mixtapes and Type Beats!',
     meta: [
       { charset: 'utf-8' },
