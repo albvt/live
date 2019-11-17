@@ -179,6 +179,14 @@
 import axios from 'axios'
 
 export default {
+head () {
+    return {
+      title: this.audio.AudioFile_tag,
+      meta: [
+        { hid: 'buy with bitcoin music', name: 'description', content: 'buy music typbeats mixtapes with bitcoin' }
+      ]
+    }
+  },
   validate ({ params }) {
     return !isNaN(+params.id)
   },
