@@ -10,7 +10,7 @@ export default{
    head: {
      title: 'Home page 🚀',
      meta: [
-       { hid: 'description', name: 'mansaah', content: 'Afro typebeats Mixtapes' }
+       { hid: 'description', name: 'description', content: ' mansaah ,African typebeats ,Mixtapes,insipiring podcasts,audio books' }
      ],
      noscript: [
        { innerHTML: 'Body No Scripts', body: true }
