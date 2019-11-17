@@ -30,9 +30,9 @@ layout:'search',
 
   head () {
     return {
-      title: 'market',
+      title: 'search content',
       meta: [
-        { hid: 'description', name: 'description', content: 'buy with bitcoin' }
+        { hid: 'description', name: 'description', content: 'search mansaah music db for audio and mixtapes' }
       ]
     }
   },
