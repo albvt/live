@@ -7,7 +7,7 @@ export default {
   */
   head: {
     titleTemplate: 'mansaah ' ,
-    title:  'mansaah',
+    title:  'mansaah : African Music, Mixtapes and Type Beats!',
     meta: [
       { charset: 'utf-8' },
       { name: 'theme-color' , content: '#0E2F44' },
