@@ -183,7 +183,7 @@ head () {
     return {
       title: this.audio.AudioFile_tag,
       meta: [
-        { hid: 'buy with bitcoin music', name: 'description', content: 'buy music typbeats mixtapes with bitcoin' }
+        { hid: 'description', name: 'description', content: 'buy music typbeats mixtapes with bitcoin' }
       ]
     }
   },
