@@ -183,7 +183,8 @@ head () {
     return {
       title: this.audio.AudioFile_tag,
       meta: [
-        { hid: 'description', name: 'description', content: 'buy music typbeats mixtapes with bitcoin' }
+        { hid: 'description', name: 'description', content: 'buy music typbeats mixtapes with bitcoin African mixtapes and beats mansaah' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ]
     }
   },
