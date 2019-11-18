@@ -8,7 +8,8 @@ head () {
       title: 'articles',
       meta: [
         { hid: 'description', name: 'description', content: 'buy with bitcoin,mansaah,African mixtapes' },
-          { hid: 'keywords', name: 'keywords', content: ' African images, photos, gif, gifs, memes, pictures, new pictures, reaction gifs' }
+          { hid: 'keywords', name: 'keywords', content: ' African images, photos, gif, gifs, memes, pictures, new pictures, reaction gifs' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ]
     }
   },
