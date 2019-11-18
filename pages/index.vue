@@ -11,10 +11,18 @@ export default{
     data() {
       return {
         structuredData: {
-          "@context": "http://schema.org",
-           "@type": "WebSite",
-           "url": "https://mansaah.com",
-           "name": "Mansaah",
+          "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.mansaah.com/",
+  "potentialAction": [{
+    "@type": "SearchAction",
+    "target": "https://albvt.pythonanywhere.com/search?ImageFile_tag={search_term_string}&ImageFile_caption={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },{
+    "@type": "SearchAction",
+    "target": "android-app://com.example/https/query.example.com/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }]
         },
       }
     },
