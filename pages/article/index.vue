@@ -47,7 +47,8 @@ export default{
   head: {
      title: 'Payments mansaah',
      meta: [
-       { hid: 'description', name: 'BitPay', content: 'Bitpay Ethereum payments' }
+       { hid: 'description', name: 'description', content: 'Bitpay Ethereum payments' },
+        { hid: 'keywords', name: 'keywords', content: 'Bitpay Ethereum payments,Bitcoin,African images,mansaah,crypto' },
      ],
      noscript: [
        { innerHTML: 'Body No Scripts', body: true }
