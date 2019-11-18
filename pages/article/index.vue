@@ -49,6 +49,7 @@ export default{
      meta: [
        { hid: 'description', name: 'description', content: 'Bitpay Ethereum payments' },
         { hid: 'keywords', name: 'keywords', content: 'Bitpay Ethereum payments,Bitcoin,African images,mansaah,crypto' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
      ],
      noscript: [
        { innerHTML: 'Body No Scripts', body: true }
