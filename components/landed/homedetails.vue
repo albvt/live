@@ -26,7 +26,7 @@
                        xl6
                       xs4>
 
-                        <v-card><v-img src="http://kiliboid.pythonanywhere.com/media/media/IMG_20190920_083437.jpg"></v-img>
+                        <v-card><v-img src="https://kiliboid.pythonanywhere.com/media/media/IMG_20190920_083437.jpg"></v-img>
                       </v-flex>
 
                   </v-flex>
@@ -52,7 +52,7 @@
                        xl6
                       xs4>
 
-                        <v-card color="#0E2F44"><v-img src="http://albvt.pythonanywhere.com/media/cover/IMG_20190901_063501.jpg">
+                        <v-card color="#0E2F44"><v-img src="https://albvt.pythonanywhere.com/media/cover/IMG_20190901_063501.jpg">
                         </v-img></v-card>
                       </v-flex>
                   </v-flex>
@@ -77,7 +77,7 @@
                        xl6
                       xs4>
 
-                        <v-card color="#0E2F44"><v-img src="http://kiliboid.pythonanywhere.com/media/media/IMG_20190725_072950.jpg"></v-img></v-card>
+                        <v-card color="#0E2F44"><v-img src="https://kiliboid.pythonanywhere.com/media/media/IMG_20190725_072950.jpg"></v-img></v-card>
                       </v-flex>
                   </v-flex>
                 </div>
