@@ -7,21 +7,23 @@
 <script>
 import home from '~/components/home.vue'
 export default{
-   head: {
-     title: 'Home page 🚀',
-     meta: [
-       { hid: 'description', name: 'description', content: ' mansaah ,African typebeats ,Mixtapes,insipiring podcasts,audio books' }
-     ],
-     noscript: [
-       { innerHTML: 'Body No Scripts', body: true }
-     ],
-     script: [
-       { src: '/head.js' },
-       // Supported since 1.0
-       { src: '/body.js', body: true },
-       { src: '/defer.js', defer: '' }
-     ]
-   },
+  
+    data() {
+      return {
+        structuredData: {
+          "@context": "http://schema.org",
+           "@type": "WebSite",
+           "url": "https://mansaah.com",
+           "name": "Mansaah",
+        },
+      }
+    },
+    head() {
+      return {
+        __dangerouslyDisableSanitizers: ['script'],
+        script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }]
+      }
+    },
   components:{home},
 
 }
