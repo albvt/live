@@ -32,7 +32,10 @@ layout:'search',
     return {
       title: 'search content',
       meta: [
-        { hid: 'description', name: 'description', content: 'search mansaah music db for audio and mixtapes' }
+        { hid: 'description', name: 'description', content: 'search mansaah music db for audio and mixtapes' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'keywords', name: 'keywords', content: ' African music, mixtapes , audiobooks, African Inspirational podcasts' }
+        
       ]
     }
   },
