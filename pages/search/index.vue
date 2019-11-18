@@ -45,7 +45,7 @@ layout:'search',
   },*/
 
     async asyncData () {
-     const { data } = await axios.get('http://albvt.pythonanywhere.com/random/')
+     const { data } = await axios.get('https://albvt.pythonanywhere.com/random/')
      return { audios: data }
    }
 
