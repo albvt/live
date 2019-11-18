@@ -39,7 +39,7 @@ export default{
     }
   }*/
    async asyncData () {
-     const { data } = await axios.get('http://albvt.pythonanywhere.com/audio/')
+     const { data } = await axios.get('https://albvt.pythonanywhere.com/audio/')
      return { audios: data }
    }
 
