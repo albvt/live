@@ -26,7 +26,8 @@ export default{
     return {
       title: ' audio market',
       meta: [
-        { hid: 'description', name: 'description', content: 'buy with bitcoin,mansaah,music ,audio books,podcasts,mixtapes and so much more' }
+        { hid: 'description', name: 'description', content: 'buy with bitcoin,mansaah,music ,audio books,podcasts,mixtapes and so much more' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ]
     }
   },
