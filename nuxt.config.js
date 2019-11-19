@@ -69,6 +69,7 @@ return [
       {src: '~/plugins/vue-particles.js',ssr:false},
       {src:'~/plugins/vue-plyr.js',ssr:false},
        { src: "~/plugins/aos", ssr: false },
+     { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
