@@ -24,10 +24,12 @@ import axios from 'axios'
 export default{
     head () {
     return {
-      title: ' audio market',
+      title:  'mansaah : African Music, Mixtapes and Type Beats!',
       meta: [
-        { hid: 'description', name: 'description', content: 'buy with bitcoin,mansaah,music ,audio books,podcasts,mixtapes and so much more' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
+      { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, mansaah, mansaah.com, playlists' },
+  
       ]
     }
   },
