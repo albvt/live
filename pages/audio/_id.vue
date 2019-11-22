@@ -186,6 +186,18 @@ head () {
         { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
          { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, mansaah, mansaah.com, playlists' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { property:'og:locale' , content:'af-ZA' },
+      { property:'og:type' ,content:'website' },
+      { property:'og:title' ,content:'African Music, Mixtapes and Type Beats!' },
+      { property: 'og:description' ,content:'buy digital African Art with bitcoin,African landscape,African gifs,and rootsman pics' },
+      { property:'og:site_name' ,content:'mansaah' },
+      { property:'og:url' ,content: 'https://mansaah.com/'},
+      {name:'twitter:card' ,content: 'summary'},
+      {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
+      { name:'twitter:creator' ,content: '@kachaq'},
+      {name: 'twitter:site', content: '@kachaq'},
+      { name:'twitter:title', content:''},
+      { name:'twitter:image', content:''},
       ]
     }
   },
