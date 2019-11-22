@@ -196,7 +196,7 @@ head () {
       {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
       { name:'twitter:creator' ,content: '@kachaq'},
       {name: 'twitter:site', content: '@kachaq'},
-      { name:'twitter:title', content:''},
+      { name:'twitter:title', content:'African Music, Mixtapes and Type Beats!'},
       { name:'twitter:image', content:''},
       ]
     }
