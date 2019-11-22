@@ -183,7 +183,8 @@ head () {
     return {
       title: this.audio.AudioFile_tag,
       meta: [
-        { hid: 'description', name: 'description', content: 'buy music typbeats mixtapes with bitcoin African mixtapes and beats mansaah' },
+        { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
+         { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, mansaah, mansaah.com, playlists' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ]
     }
