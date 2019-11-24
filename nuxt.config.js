@@ -6,8 +6,6 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'mansaah: African Music, Mixtapes and Type Beats! ' ,
-    title:  'mansaah : African Music, Mixtapes and Type Beats!',
     meta: [
       { charset: 'utf-8' },
       { name: 'theme-color' , content: '#0E2F44' },
