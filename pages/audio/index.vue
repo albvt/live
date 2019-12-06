@@ -22,6 +22,7 @@ import axios from 'axios'
 
 
 export default{
+
     head () {
     return {
       title:  'mansaah : African Music, Mixtapes and Type Beats!',
@@ -33,6 +34,7 @@ export default{
       ]
     }
   },
+  scrollToTop: true,
   components:{audiocard,},
 
   /*
