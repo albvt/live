@@ -63,7 +63,7 @@
                       <div class="headline mt-3 brown--text font-weight-bold">Sell and go wild</div>
                       <v-flex xs12 sm5 md3 justify-end>
                         <v-card tile color="#0E2F44">
-                          <v-card-text >with crypto now available you can sell to anyone arund the world</v-card-text>
+                          <v-card-text >with crypto now available you can sell to anyone around the world</v-card-text>
 
                         </v-card>
                       </v-flex>
