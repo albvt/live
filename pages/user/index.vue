@@ -17,7 +17,7 @@ export default{
   components:{usercard},
 
   async asyncData () {
-   const { data } = await axios.get('http://127.0.0.1:8000/user')
+   const { data } = await axios.get('https://kachaq.com/user')
    return { users: data }
  }
 
