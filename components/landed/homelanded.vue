@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .home-hero {
-    background: url('http://kiliboid.pythonanywhere.com/media/media/71hwEIYsZL._SX466_.jpg') no-repeat center center ;
+    background: url('https://kiliboid.pythonanywhere.com/media/media/71hwEIYsZL._SX466_.jpg') no-repeat center center ;
     background-size: cover;
     width: 100%;
     height: 100%;
