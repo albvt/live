@@ -32,7 +32,7 @@ export default {
       { name:'twitter:image', content:''},
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      
       {rel: 'canonical',href:'https://mansaah.com'},
       {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Alegreya|Montserrat|Yeon+Sung&display=swap'}
     ],
