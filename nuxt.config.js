@@ -98,7 +98,7 @@ return [
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/auth',
-    '@nuxtjs/onesignal',
+    //'@nuxtjs/onesignal',
     '@nuxtjs/pwa',
 
      ['@nuxtjs/google-adsense', {
