@@ -98,6 +98,9 @@ return [
   modules: [
     '@nuxtjs/axios',
     '@nuxtjs/auth',
+    '@nuxtjs/onesignal',
+    '@nuxtjs/pwa',
+
      ['@nuxtjs/google-adsense', {
       id: 'ca-pub-5388314784840597'
     }],
@@ -133,6 +136,36 @@ return [
       },
     ]
   },
+  
+  manifest: {
+      short_name: 'mansaah',
+    name: 'mansaah',
+    lang: 'en',
+    start_url: '/audio/',
+  background_color: '#0E2F44',
+  display: 'standalone',
+  scope: '/audio/',
+  theme_color: '#0E2F44'
+
+  },
+   icon: {
+    /* icon options */
+    iconSrc:'/assets/icon.png',
+  },
+   workbox: {
+    /* workbox options */
+    runtimeCaching:[
+        {
+            urlPattern:'https://fonts.googleapis.com/.*',
+            handler:'cacheFirst',
+            method:'GET',
+            strategyOptions:{ cacheableResponse:{statuses:[0,200]}}
+            
+        },
+        ]
+  },
+
+
   
   
 
