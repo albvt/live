@@ -68,7 +68,7 @@
                  Add-To-Cart
                </v-btn>
                <v-spacer></v-spacer>
-               <a :href="audio.AudioFile" download>download<v-icon>mdi-file</v-icon></a>
+               <a :href="audio.AudioFile"  download="mansaah.mp3">download<v-icon>mdi-file</v-icon></a>
              </v-card-actions>
            </v-card>
          </v-hover>
