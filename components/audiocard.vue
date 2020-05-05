@@ -20,7 +20,7 @@
         
         >
         <v-card
-        color="#0E2F44"
+        color="#000000"
         raised
         class="rounded-card"
         >
