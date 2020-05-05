@@ -24,7 +24,7 @@
         raised
         class="rounded-card"
         >
-        <v-img title="Africa on a stream mansaah mixtapes beats Africa " :src="audio.AudioFile_cover" height="200px" alt="Afro beats mansaah"></v-img>
+        <v-img title="African Music African type Beats Mansaah Mansaah Music " :src="audio.AudioFile_cover" height="200px" alt="Afro beats mansaah"></v-img>
         <div>
        <vue-plyr>
 <audio controls>
@@ -37,17 +37,7 @@
         <v-card-text>{{audio.AudioFile_tag}}</v-card-text>
         </v-img>
           <v-card-actions>
-                <v-chip
-    class="ma-2"
-    color="#18D3AF"
-    text-color="white"
-  >
-    <v-avatar left>
-      <v-icon>mdi-bitcoin</v-icon>
-    </v-avatar>
-    {{audio.AudioFile_claps}}  buys
-  </v-chip>
-            
+          <v-btn text @click="downloadWithAxios()">download</v-btn>
 
             <v-spacer></v-spacer>
 <!--real deal button-->
@@ -64,10 +54,49 @@
 
 </template>
 <script>
+import { mapGetters, mapActions } from 'vuex'
+import axios from 'axios'
 export default {
   name:"audiocard",
     props: ["audio",],
-};
+
+  data() {
+    return {
+      url: this.audio.AudioFile
+    }
+  },
+
+
+  methods: {
+
+    forceFileDownload(response){
+      const url = window.URL.createObjectURL(new Blob([response.data]))
+      const link = document.createElement('a')
+      link.href = url
+      link.setAttribute('download', 'mansaah.mp3') //or any other extension
+      document.body.appendChild(link)
+      link.click()
+    },
+
+    downloadWithAxios(){
+      axios({
+        method: 'GET',
+        url: this.url,
+        responseType: 'blob'
+      })
+      .then(response => {
+
+        this.forceFileDownload(response)
+
+      })
+      .catch(() => console.log('error occured'))
+    }
+  }
+
+
+
+
+}
 </script>
 <style>
 .rounded-card{
