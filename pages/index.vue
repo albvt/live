@@ -11,7 +11,7 @@ export default{
     data() {
       return {
         structuredData: {
-               "@context": "http://schema.org",
+               "@context": "https://schema.org",
            "@type": "WebSite",
            "url": "https://mansaah.com",
            "name": "mansaah",
@@ -23,7 +23,7 @@ export default{
       return {
         __dangerouslyDisableSanitizers: ['script'],
         script: [{ innerHTML: JSON.stringify(this.structuredData), type: 'application/ld+json' }],
-        title: 'Mansaah| stream African Music, Mixtapes and Type Beats! 🚀',
+        title: 'Mansaah| stream African Music, Mixtapes and Type Beats! 🚀,African Podcasts',
           meta: [
           
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -31,16 +31,16 @@ export default{
           { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
           { property:'og:locale' , content:'af-ZA' },
           { property:'og:type' ,content:'website' },
-          { property:'og:title' ,content:'mansaah : Stream African Music, Mixtapes and Type Beats!' },
+          { property:'og:title' ,content:'Mansaah | Stream African Music, Mixtapes and Type Beats!' },
           { property: 'og:description' ,content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
           { property:'og:site_name' ,content:'mansaah' },
           { property:'og:url' ,content: 'https://mansaah.com/'},
           {name:'twitter:card' ,content: 'summary'},
           {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
-          { name:'twitter:creator' ,content: '@kachaq'},
-          {name: 'twitter:site', content: '@kachaq'},
-          { name:'twitter:title', content:''},
-          { name:'twitter:image', content:''},
+          { name:'twitter:creator' ,content: '@mansaah'},
+          {name: 'twitter:site', content: '@mansaah'},
+          { name:'twitter:title', content:'Mansaah | Stream African Music ,Type Beats And Clean Podcasts 🚀'},
+          { name:'twitter:image', content:'https://source.unsplash.com/dvaBJW5NytI'},
         ],
       }
     },
