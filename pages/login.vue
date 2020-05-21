@@ -1,6 +1,7 @@
 <template>
   <div>
     <auth></auth>
+    <v-btn outline fab @click="googleSignIn" color="#4285F4"><v-icon>fab fa-google</v-icon></v-btn>
   </div>
 </template>
 <script>
@@ -16,6 +17,18 @@ export default{
               
       ]
     }
+  },
+  methods:{
+  googleSignIn () {
+        this.provider = new firebase.auth.GoogleAuthProvider()
+        firebase.auth().signInWithPopup(this.provider).then(result => {
+          // store the user ore wathever
+          this.$router.push('/dashboard')
+        }).catch(e => {
+          this.$snotify.error(e.message)
+          console.log(e)
+        })
+      }
   },
 }
 </script>
