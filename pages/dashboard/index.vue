@@ -16,7 +16,7 @@ import singlefile from '~/components/fileupload/singlefile.vue'
     layout:'dashboard',
     components:{singlefile,},
     head: {
-     title: 'dashboard ',
+     title: 'Mansaah |dashboard ',
      meta: [
        { hid: 'description', name: 'description', content: 'dashboard to upload and listen to mixtapes, music,podcasts ' }
      ],
