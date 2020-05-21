@@ -105,8 +105,31 @@ return [
       id: 'ca-pub-5388314784840597'
     }],
     '@nuxtjs/sitemap',
+     '@nuxtjs/firebase'
     
   ],
+ 
+    firebase: {
+// options
+
+config: {
+        apiKey: 'AIzaSyD5id1rzfvcDzwEj2zESWLWaIAoSPJE7cs',
+        authDomain: 'mansaah-sound.firebaseapp.com',
+        databaseURL: 'https://mansaah-sound.firebaseio.com',
+        projectId: 'mansaah-sound',
+        storageBucket: 'mansaah-sound.appspot.com',
+        messagingSenderId: '458126264490',
+        appId: '1:458126264490:web:f6f911d7f5f70a5e9f28d3',
+        measurementId: 'G-4D33HZ8RBC'
+      },
+services: {
+        auth: true ,
+        messaging: true,
+        performance: true,
+        analytics: true// Just as example. Can be any other service.
+      }
+
+},
   
   sitemap: {
     hostname: 'https://mansaah.com/',
