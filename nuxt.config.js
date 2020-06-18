@@ -12,6 +12,7 @@ export default {
       { name: 'msapplication-navbutton-color' , content: '#0E2F44' },
       { name: 'apple-mobile-web-app-capable' , content: 'yes' },
       { name: 'apple-mobile-web-app-status-bar-style'  , content: '#0E2F44' },
+      {name: 'monetization' , content:'$ilp.uphold.com/KeZqRj2YkFGf'},
 
       {name:'google-signin-client_id' , content: '458126264490-7cakna6471hf9s9gdij499cugn142eje.apps.googleusercontent.com' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
