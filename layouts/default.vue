@@ -50,7 +50,7 @@
       <v-toolbar-title v-text="title" />
       <v-spacer />
      <!-- <v-btn icon><v-icon>mdi-magnify</v-icon></v-btn>-->
-      <a href="/audio">listen<a/><v-btn icon color="#39FF14"><v-icon>mdi-music</v-icon></v-btn>
+      <a style="text-decoration:none" href="/audio">listen<a/><v-btn icon color="#39FF14"><v-icon>mdi-music</v-icon></v-btn>
     </v-app-bar>
     <v-content>
       <v-container>
