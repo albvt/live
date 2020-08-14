@@ -8,10 +8,10 @@ export default {
   head: {
     meta: [
       { charset: 'utf-8' },
-      { name: 'theme-color' , content: '#0E2F44' },
-      { name: 'msapplication-navbutton-color' , content: '#0E2F44' },
+      { name: 'theme-color' , content: '#61873b' },
+      { name: 'msapplication-navbutton-color' , content: '#61873b' },
       { name: 'apple-mobile-web-app-capable' , content: 'yes' },
-      { name: 'apple-mobile-web-app-status-bar-style'  , content: '#0E2F44' },
+      { name: 'apple-mobile-web-app-status-bar-style'  , content: '#61873b' },
       {name: 'monetization' , content:'$ilp.uphold.com/KeZqRj2YkFGf'},
 
       {name:'google-signin-client_id' , content: '458126264490-7cakna6471hf9s9gdij499cugn142eje.apps.googleusercontent.com' },
@@ -27,8 +27,8 @@ export default {
       { property:'og:url' ,content: 'https://mansaah.com/'},
       {name:'twitter:card' ,content: 'summary'},
       {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
-      { name:'twitter:creator' ,content: '@kachaq'},
-      {name: 'twitter:site', content: '@kachaq'},
+      { name:'twitter:creator' ,content: '@mansaah_sound'},
+      {name: 'twitter:site', content: '@mansaah'},
       { name:'twitter:title', content:''},
       { name:'twitter:image', content:''},
     ],
@@ -163,13 +163,13 @@ services: {
   
   manifest: {
       short_name: 'mansaah',
-    name: 'mansaah',
+    name: 'mansaah sound',
     lang: 'en',
     start_url: '/audio/',
-  background_color: '#0E2F44',
+  background_color: '#61873b',
   display: 'standalone',
   scope: '/audio/',
-  theme_color: '#0E2F44'
+  theme_color: '#61873b'
 
   },
    icon: {
