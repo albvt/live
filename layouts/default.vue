@@ -25,7 +25,7 @@
           
         </v-list-item>
       </v-list>
-      <a href="/search"> <v-icon color="#18D3AF">mdi-magnify</v-icon>search db</a>
+      <a style="text-decoration:none" href="/search"> <v-icon color="#18D3AF">mdi-magnify</v-icon>search db</a>
     </v-navigation-drawer>
     <v-app-bar
       :clipped-left="clipped"
