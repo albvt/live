@@ -41,7 +41,7 @@
 
             <v-spacer></v-spacer>
 <!--real deal button-->
-<a :href="'/audio/'+audio.id"><v-icon>mdi-download-outline</v-icon></a>
+<a :href="'/audio/'+audio.id" style="text-decoration:none" ><v-icon>mdi-download-outline</v-icon></a>
           </v-card-actions>
           <span>{{audio.AudioFile_caption}}</span>
         </v-card>
