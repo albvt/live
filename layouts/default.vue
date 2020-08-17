@@ -57,11 +57,22 @@
         <nuxt />
       </v-container>
     </v-content>
+    
+    <v-footer
+      dark
+      padless
+    >
+      <myfooter>
+
+      </myfooter>
+    </v-footer>
+
    
   </v-app>
 </template>
 
 <script>
+import  myfooter from './myfooter.vue'
 export default {
   data () {
     return {
@@ -84,7 +95,8 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Mansaah'
+      title: 'Mansaah',
+      components:{myfooter},
     }
   }
 }
