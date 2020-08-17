@@ -4,7 +4,7 @@
       <v-card
         flat
         tile
-        class="green white--text"
+        class="black white--text"
         width="100%"
       >
         <v-card-text>
