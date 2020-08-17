@@ -35,7 +35,7 @@ export default {
     link: [
       
       {rel: 'canonical',href:'https://mansaah.com'},
-      {rel:'stylesheet', href:'https://fonts.googleapis.com/css?family=Alegreya|Montserrat|Yeon+Sung&display=swap'}
+      {rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Dosis:wght@200;300&display=swap'}
     ],
     script: [
       { src: 'https://apis.google.com/js/platform.js' }
