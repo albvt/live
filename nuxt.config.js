@@ -8,10 +8,10 @@ export default {
   head: {
     meta: [
       { charset: 'utf-8' },
-      { name: 'theme-color' , content: '#61873b' },
-      { name: 'msapplication-navbutton-color' , content: '#61873b' },
+      { name: 'theme-color' , content: '#000000' },
+      { name: 'msapplication-navbutton-color' , content: '#000000' },
       { name: 'apple-mobile-web-app-capable' , content: 'yes' },
-      { name: 'apple-mobile-web-app-status-bar-style'  , content: '#61873b' },
+      { name: 'apple-mobile-web-app-status-bar-style'  , content: '#000000' },
       {name: 'monetization' , content:'$ilp.uphold.com/KeZqRj2YkFGf'},
 
       {name:'google-signin-client_id' , content: '458126264490-7cakna6471hf9s9gdij499cugn142eje.apps.googleusercontent.com' },
@@ -166,10 +166,10 @@ services: {
     name: 'Blast sound',
     lang: 'en',
     start_url: '/audio/',
-  background_color: '#61873b',
+  background_color: '#000000',
   display: 'standalone',
   scope: '/audio/',
-  theme_color: '#61873b'
+  theme_color: '#000000'
 
   },
    icon: {
