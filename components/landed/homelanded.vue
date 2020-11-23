@@ -3,7 +3,7 @@
         <v-layout justify-center align-center column pa-4 >
 <div data-aos="slide-up" data-aos-easing="ease" data-aos-duration="1000">
   <div class="display-1 font-weight-bold white--text text-xs-center"> <p>
-    <vue-typer text='Mansaah Music,Mixtapes,type-beats!!!!'></vue-typer>
+    <vue-typer text='Blast Stream Music,Mixtapes,live radio and AfroPodcasts!!!!'></vue-typer>
   </p></div>
   <vue-particles
          color="#ffffff"
