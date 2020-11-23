@@ -174,7 +174,7 @@ services: {
   },
    icon: {
     /* icon options */
-    iconSrc:'/assets/icon.png',
+    iconSrc:'/assets/icon1.png',
   },
    workbox: {
     /* workbox options */
