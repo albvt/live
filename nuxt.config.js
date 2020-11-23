@@ -21,10 +21,10 @@ export default {
       {name:'google-site-verification',content:'oAzC1OHtW4HnIpGtv9G_luiGCGfP681gbhbxZD36wgQ'},
       { property:'og:locale' , content:'af-ZA' },
       { property:'og:type' ,content:'website' },
-      { property:'og:title' ,content:'African Music, Mixtapes and Type Beats!' },
+      { property:'og:title' ,content:'Blast : African Music,Afro live Podcasts, Mixtapes and Type Beats!' },
       { property: 'og:description' ,content:'buy digital African Art with bitcoin,African landscape,African gifs,and rootsman pics' },
-      { property:'og:site_name' ,content:'mansaah' },
-      { property:'og:url' ,content: 'https://mansaah.com/'},
+      { property:'og:site_name' ,content:'blast' },
+      { property:'og:url' ,content: 'https://albvt.netlify.app/'},
       {name:'twitter:card' ,content: 'summary'},
       {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
       { name:'twitter:creator' ,content: '@mansaah_sound'},
@@ -34,7 +34,7 @@ export default {
     ],
     link: [
       
-      {rel: 'canonical',href:'https://mansaah.com'},
+      {rel: 'canonical',href:'https://albvt.netlify.app'},
       {rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Dosis:wght@200;300&display=swap'}
     ],
     script: [
@@ -133,7 +133,7 @@ services: {
 },
   
   sitemap: {
-    hostname: 'https://mansaah.com/',
+    hostname: 'https://albvt.netlify.app/',
     lastmod: '2019-11-13',
     sitemaps: [
       {
@@ -162,8 +162,8 @@ services: {
   },
   
   manifest: {
-      short_name: 'mansaah',
-    name: 'mansaah sound',
+      short_name: 'Blast',
+    name: 'Blast sound',
     lang: 'en',
     start_url: '/audio/',
   background_color: '#61873b',
