@@ -16,8 +16,8 @@ export default {
 
       {name:'google-signin-client_id' , content: '458126264490-7cakna6471hf9s9gdij499cugn142eje.apps.googleusercontent.com' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
-      { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, mansaah, mansaah.com, playlists' },
+      { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Blast, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
+      { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, blast, mansaah.com, playlists' },
       {name:'google-site-verification',content:'oAzC1OHtW4HnIpGtv9G_luiGCGfP681gbhbxZD36wgQ'},
       { property:'og:locale' , content:'af-ZA' },
       { property:'og:type' ,content:'website' },
