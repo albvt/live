@@ -25,11 +25,11 @@ export default{
 
     head () {
     return {
-      title:  'mansaah : African Music, Mixtapes and Type Beats!',
+      title:  'Blast : Stream Music and Blastout',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
-      { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, mansaah, mansaah.com, playlists' },
+        { hid: 'description', name: 'description', content: 'Frontend of the worlds music at Blast, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
+      { hid: 'description', name: 'keywords', content: 'blast audio, blast music, blast  podcasts,blast afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, blast, blast, playlists' },
   
       ]
     }
