@@ -16,17 +16,17 @@ export default {
 
       {name:'google-signin-client_id' , content: '458126264490-7cakna6471hf9s9gdij499cugn142eje.apps.googleusercontent.com' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Discover the magic of African Music at Blast, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!' },
+      { hid: 'description', name: 'description', content: 'Discover the magic of Music at Blast, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral   albums, and so much more!!!!' },
       { hid: 'description', name: 'keywords', content: 'back to sleep, music, podcasts, afro-pop typebeats, African Mixtapes, music upload, audio direct sales, lol, humor, buy with bitcoin, comment, share, blast, mansaah.com, playlists' },
       {name:'google-site-verification',content:'oAzC1OHtW4HnIpGtv9G_luiGCGfP681gbhbxZD36wgQ'},
       { property:'og:locale' , content:'af-ZA' },
       { property:'og:type' ,content:'website' },
-      { property:'og:title' ,content:'Blast : African Music,Afro live Podcasts, Mixtapes and Type Beats!' },
-      { property: 'og:description' ,content:'buy digital African Art with bitcoin,African landscape,African gifs,and rootsman pics' },
+      { property:'og:title' ,content:'Blast : Stream Music , Blast Out' },
+      { property: 'og:description' ,content:'Blast : Stream Music, Blast Out' },
       { property:'og:site_name' ,content:'blast' },
       { property:'og:url' ,content: 'https://blastout.netlify.app/'},
       {name:'twitter:card' ,content: 'summary'},
-      {name:'twitter:description', content:'Discover the magic of African Music at Mansaah, a community powered entertainment Rootsman vibe. Lift your spirits with hard beats mixtapes and audios, trending music, create playlists, inspiring podcasts, viral  African albums, and so much more!!!!'},
+      {name:'twitter:description', content:'Blast : Stream Music, Blast Out'},
       { name:'twitter:creator' ,content: '@blast_sound'},
       {name: 'twitter:site', content: '@blast'},
       { name:'twitter:title', content:''},
@@ -34,7 +34,7 @@ export default {
     ],
     link: [
       
-      {rel: 'canonical',href:'https://albvt.netlify.app'},
+      {rel: 'canonical',href:'https://blastout.netlify.app'},
       {rel:'stylesheet', href:'https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Dosis:wght@200;300&display=swap'}
     ],
     script: [
