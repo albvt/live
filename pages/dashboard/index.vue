@@ -16,9 +16,9 @@ import singlefile from '~/components/fileupload/singlefile.vue'
     layout:'dashboard',
     components:{singlefile,},
     head: {
-     title: 'Mansaah |dashboard ',
+     title: 'Blast |dashboard ',
      meta: [
-       { hid: 'description', name: 'description', content: 'dashboard to upload and listen to mixtapes, music,podcasts ' }
+       { hid: 'description', name: 'description', content: 'dashboard to upload and listen to mixtapes, music and podcasts ' }
      ],
      noscript: [
        { innerHTML: 'Body No Scripts', body: true }
