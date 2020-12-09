@@ -10,9 +10,9 @@ export default{
   components:{auth,},
   head () {
     return {
-      title: 'Mansaah| login',
+      title: 'Blast| login',
       meta: [
-        { hid: 'description', name: 'description', content: 'login to mansaah,African mixtapes and audio,TypeBeats,African Music ' },
+        { hid: 'description', name: 'description', content: 'login to Blast,mixtapes and audio,TypeBeats,African Music ' },
               { name: 'viewport', content: 'width=device-width, initial-scale=1' },
               
       ]
