@@ -8,7 +8,7 @@ export default{
 head: {
      title: 'checkout 🚀',
      meta: [
-       { hid: 'description', name: 'description', content: 'buy with bitcoin,audio books,African mixtapes,podcasts' }
+       { hid: 'description', name: 'description', content: 'buy using all currencies including bitcoin a variety of audio books, mixtapes, podcasts' }
      ],
      noscript: [
        { innerHTML: 'Body No Scripts', body: true }
